@@ -8,18 +8,25 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
     <link rel="stylesheet" href="style.css">
   </head> 
   <body>
     <section>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-header"></div>
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+        </div>
+        
+
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+          <ul class="navbar-nav nav">
             <li class="nav-item">
               <a class="nav-link" href="#">HOME</a>
             </li>
@@ -35,10 +42,24 @@
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            </li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
           </ul>
         </div>
+    
       </nav>
     </section>
+
   <!-----slider----->
   <div id="slider">
     <div id="boxslider" class="carousel slide" data-ride="carousel">
@@ -59,8 +80,8 @@
     <section id="about-page">
     <div class="container-fluid padding">
     <div class="row padding">
-      <div class="col-lg-8" >
-        <h2>About this Company</h2>
+      <div class="col-lg-8 col-xs-12 col-md-12 col-centered" >
+        <h2>Welcome to Spacesux Digital</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, dignissimos iusto impedit quaerat reprehenderit odit, commodi architecto nisi repudiandae cupiditate 
               quae dolorum rerum eius error aliquam eligendi, earum iste nulla.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus eaque magni alias at similique cum hic pariatur voluptates doloribus, omnis totam, 
@@ -69,13 +90,36 @@
           doloribus molestiae repellendus explicabo at unde atque aspernatur!
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quasi labore fugiat suscipit eius eveniet, provident pariatur explicabo sit soluta enim, 
           quaerat minima quis, illo maxime beatae? Natus, laborum harum?</p>     
-      </div>
-          <div class="col-lg-4 col-xs-12 col-md-8 col-centered">
+      	</div>
+          <div class="col-lg-4 col-xs-12 col-md-6">
             <img src="images/brick.png" class="img-fluid">
-            <div class="img-text">GET TO KNOW US</div>
           </div>
+         </div>
         </div>
     </div>
+</section>
+<!--- Jumbotron ----->
+<section>
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+    <h1 class="display-4">Engage Us Today</h1>
+    <p class="lead">We have skilled service providers working daily to satisfy the needs of our clients in the media and entertainment industry</p>
+  </div>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+</div>
+</section>
+<!---- Services card --->
+<section>
+  <div class="container-fluid">
+  <div class="row">
+    <div id="one" class="col-md-4 col-12">.col-6 .col-sm-4</div>
+    <div id="two" class="col-md-4 col-12">.col-6 .col-sm-4</div>
+    <div id="three" class="col-md-4 col-12">.col-6 .col-sm-4</div>
+  </div>
+  </div>
+</div>
+ </div>
 </section>
 
   </body>
