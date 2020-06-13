@@ -39,9 +39,11 @@ html, body, .row{
     top: 0;
     z-index: 1;
     width: 100%;
-    
 }
 
+.social{
+    list-style: none;
+}
 
 .navbar-toggler{
     border: none!important;
@@ -108,19 +110,15 @@ div p{
    justify-content: space-between;
       } 
 
-#one{
-    background-color: red;
-    height: 300px;
+.call-outs-container{
+    margin: 30px auto 0 auto;
+    padding-bottom: 20px;  
 }
-#two{
-    background-color: blue;
-    height: 300px;
-}
-#three{
-    background-color: green;
-    height: 300px;
 
-}
+
+.call-out:nth-child(1) {background-color: grey;}
+.call-out:nth-child(2) {background-color: blue;}
+.call-out:nth-child(3) {background-color:grey}
  
 @media (max-width:992px ){
    .col-md-4 {
@@ -128,3 +126,4 @@ div p{
         width: 33.33%; 
     } 
 }
+
