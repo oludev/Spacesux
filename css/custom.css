@@ -570,7 +570,7 @@ h4{
     cursor: pointer;
  }
 
-@-webkit-keyframes bounce{
+ @-webkit-keyframes bounce{
     0%       {bottom: 0px;}
     25%, 75% {bottom: 2px}
     50%      {bottom: 5px;}
@@ -745,7 +745,7 @@ div#whatwedo ul li a{
 
 .copyright{
     background:#000;
-    font-color:#0b3ca0;
+    color:#0b3ca0;
 }
 
 .lastheading{
