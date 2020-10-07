@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.spacesux.com/contact.html</title>
+    <title>Spacesux Digital|contact.html</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -11,21 +11,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" href="css/util.css">
-	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+
   </head> 
   <body>
     <section>
@@ -65,9 +52,7 @@
 </section>
 
 <section>
-	
-
-
+  
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<button class="btn-hide-contact100">
@@ -76,9 +61,10 @@
 
 			<div class="contact100-form-title" style="background-image: url(images/bg-02.jpg);">
 				<span>Contact Us</span>
-			</div>
+      </div>
+      <div id="return_error"></div>
 
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" onsubmit="return validation()"> 
 				<div class="wrap-input100 validate-input">
 					<input id="name" class="input100" type="text" name="name" placeholder="Full name">
 					<span class="focus-input100"></span>
@@ -89,7 +75,7 @@
 
 
 				<div class="wrap-input100 validate-input">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<input id="email" class="input100" type="text" name="email" placeholder="Email">
 					<span class="focus-input100"></span>
 					<label class="label-input100" for="email">
 						<span class="lnr lnr-envelope m-b-5"></span>
@@ -98,7 +84,7 @@
 
 
 				<div class="wrap-input100 validate-input">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. +1 800 000000">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Phone Number">
 					<span class="focus-input100"></span>
 					<label class="label-input100" for="phone">
 						<span class="lnr lnr-smartphone m-b-2"></span>
@@ -107,7 +93,7 @@
 
 
 				<div class="wrap-input100 validate-input">
-					<textarea id="message" class="input100" name="message" placeholder="Your comments..."></textarea>
+					<textarea id="message" class="input100" name="message" placeholder="Write a Message"></textarea>
 					<span class="focus-input100"></span>
 					<label class="label-input100 rs1" for="message">
 						<span class="lnr lnr-bubble"></span>
@@ -183,21 +169,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+<script src="js/scripts.js"></script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 	<script>
@@ -206,5 +179,6 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-23581568-13');
-	</script>
+  </script>
+ 
 </html>
