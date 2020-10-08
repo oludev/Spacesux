@@ -26,7 +26,7 @@ function validation(){
         return false;
     }
 
-    if(message.length < 100){
+    if(messages.length < 100){
         text = "Message length must not be less than 100 characters";
         return_error.innerHTML = text;
         return false;
@@ -35,3 +35,5 @@ function validation(){
     alert("Successfully submitted")
     return true;
 }
+
+
